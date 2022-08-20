@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#987938",
+    "navigationBarTitleText": "口述校史"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
