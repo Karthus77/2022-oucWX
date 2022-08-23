@@ -1,0 +1,20 @@
+/**app.wxss**/
+#new-list{
+    min-height:600rpx;
+    padding :15rpx;
+}
+.list-item{
+    display:flex;
+    flex-direction:row;
+    border-bottom:1rpx solid gray;
+}
+.list-item image{
+    width:230rpx;
+    height: 150rpx;
+    margin:10rpx;
+}
+.list-item text{
+    width:100%;
+    line-height:60rpx;
+    font-size: 10pt;
+}

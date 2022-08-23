@@ -1,0 +1,18 @@
+<!-- 登陆页面 -->
+<view class="myLogin">
+  <block wx:if="{{isLogin}}">
+    <image src="{{src}}"></image>
+    <text>{{nickName}}</text>
+  </block>
+  <button wx:else  bindtap='getUserProfile'>点此登录</button>
+</view>
+<!-- 收藏列表 -->
+<view class="myFavorite"> 
+  <text>我的收藏（{{number}}）</text>
+  <view class="news-list">
+    <view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">
+      <image src="{{item.poster}}"></image>
+      <text bindtap = 'goToDetail' data-id="{{item.id}}">{{item.title}}————{{item.add_date}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,47 @@
+/* 登陆页面 */
+.myLogin {
+    height: 400rpx;
+    background-color: #328EEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.myLogin image {
+    height: 200rpx;
+    width: 200rpx;
+    border-radius: 50%;
+}
+
+.myLogin text {
+    color: white;
+}
+
+/* 收藏列表 */
+.myFavorite {
+    padding: 20rpx;
+}
+
+.new-list {
+    min-height: 600rpx;
+    padding: 15rpx;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1rpx solid gray;
+}
+
+.news-item image {
+    width: 230rpx;
+    height: 150rpx;
+    margin: 10rpx;
+}
+
+.news-item text {
+    width: 100%;
+    line-height: 60rpx;
+    font-size: 10pt;
+}
